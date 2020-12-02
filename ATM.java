@@ -8,7 +8,7 @@ import java.util.Scanner;
       //Prompt the user for amount in dollars
       System.out.print("Enter the amount: ");
       amount = userInput.nextInt();
-      if (amount <= 300 && > 0); {//Calculate bills by denomination
+      if (amount > 0 && (amount <= 300)); {//Calculate bills by denomination
       int d20 = (amount / 20);
       int d10 = ((amount % 20) / 10);
       int d5 = (((amount % 20) % 10) / 5);
